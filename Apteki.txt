@@ -8,5 +8,3 @@ Veliko Turnovo:Mareshki:Abopharma:4569
 Blagoevgrad:Medea:Sopharma:5616
 Smolyan:Phramar:Fenixpharma:78924
 Gabrovo:Remedium:Medea:16355
-
-medea:medea:abopharma:567543
