@@ -132,7 +132,8 @@ int main()
 
 					IzvejdaneNaLekarstvaVApteka(VecApteki, name);
 					break;
-
+					default:
+					break;
 
 				}
 
@@ -185,7 +186,8 @@ int main()
 				case 6: //  6. Сортиране на лекарствата по имена в низходящ ред
 					SortCLekarstvaByName(data);
 					break;
-
+				default:
+					break;
 
 				}
 			} while (choice2 != 0); // при въвеждане на 0, излиза от цикъла и се връща в основното меню
@@ -220,6 +222,8 @@ int main()
 					top3Apteki(VecApteki);
 
 					break;
+					default:
+					break;
 				}
 			} while (choice2 != 0); // при въвеждане на 0, излиза от цикъла и се връща в основното меню
 
@@ -240,10 +244,13 @@ int main()
 				case 2: //Добавяне на аптека
 					AddApteka(VecApteki);
 					break;
-
+				default:
+					break;
 				}
 			} while (choice2 != 0); // при въвеждане на 0, излиза от цикъла и се връща в основното меню
 			break;
+			default:
+					break;
 		}
 		
 	} while (choice != 0); // при въвеждане на 0, излиза от цикъла и затваря програмата
